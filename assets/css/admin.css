@@ -1,0 +1,50 @@
+/*
+** Admin Side Css
+*/
+.fcw-wrapper{
+    padding: 30px 35px !important;
+    background: white;
+    margin: 30px;
+}
+.fcw-form-heading{
+    font-family: math;
+    text-align: center;
+    font-size: 30px;
+}
+.fcw-setting-section {
+    margin-top: 25px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+    padding: 20px;
+    border: 1px solid #adb3b6;
+}
+.fcw-form-sub-heading{
+    font-size: 18px;
+    color: black;
+    margin-top: -35px !important;
+    background: white;
+    width: 10%;
+}
+.fcw-new-section{
+    background: #607d8b;
+    padding: 5px;
+    /*border-radius: 50%;*/
+    margin-right: 5px;
+    margin-top: 4px;
+    display: inline-block;
+}
+.fcw-wrapper label{
+    margin-left: 4px;
+    font-weight: 500;
+}
+.fcw-wrapper .form-check-input{
+    display: block;
+    margin-left: 0px;
+    zoom: 1.2;
+    margin-top: 10px;
+}
+.fcw-save-btn{
+    width: 13%;
+    margin-top: 15px !important;
+    background: #03a9f4 !important;
+    color: white !important;
+}

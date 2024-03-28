@@ -1,0 +1,58 @@
+.fcw-calculator-wrapper{
+    padding: 30px;
+    margin: 40px auto !important;
+    width: 100%;
+
+}
+.fcw-down-payment span,
+.fcw-terms-month span {
+	font-weight: 700;
+    color: #404040;
+    float: right;
+}
+.fcw-terms-month {
+	margin-top: 20px;
+}
+.fcw-down-payment .asRange,
+.fcw-terms-month .asRange{
+	width: 100%;
+    margin-top: 10px;
+}
+.fcw-down-payment .asRange .asRange-pointer .asRange-tip,
+.fcw-terms-month .asRange .asRange-pointer .asRange-tip{
+	display: none;
+}
+.fcw-finance-table {
+	margin-top: 20px;
+}
+.fcw-finance-table .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.fcw-finance-table .table th,
+.fcw-finance-table .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.fcw-finance-table .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.fcw-finance-table .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+.fcw-finance-table .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+/*@media (min-width: 320px) and (max-width: 480px) {
+    .fcw-calculator-wrapper{
+        width: 100%;
+    }
+}
+@media (min-width: 480px) and (max-width: 782px) {
+    .fcw-calculator-wrapper{
+        width: 100%;
+    }
+}*/
